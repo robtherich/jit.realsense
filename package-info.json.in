@@ -1,0 +1,24 @@
+{
+	"author" : "Jean-Michaël Celerier, Jean-Michel Couturier, Rob Ramirez",
+	"description" : "Realsense external for Max 8",
+	"homepatcher" : "",
+	"max_version_min" : "8.0", "max_version_max" : "none",
+	"name" : "@C74_PACKAGE_NAME@",
+	"os" : {
+		"macintosh" : {
+			"platform" : [ "x64" ],
+			"min_version" : "none"
+		},
+		"windows" : {
+			"platform" : [ "x64" ],
+			"min_version" : "none"
+		}
+	},
+	"package_extra" : {
+		"reverse_domain" : "com.cycling74",
+		"exclude_from_collectives" : "yes"
+	},	
+	"tags" : [ ],
+	"version" : "1.0.0",
+	"website" : "https://github.com/robtherich/jit.realsense"
+}
