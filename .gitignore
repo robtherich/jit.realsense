@@ -3,3 +3,6 @@
 build/
 build-*/
 jit.realsense/externals
+jit.realsense/package-info.json
+package-info.json
+.vscode

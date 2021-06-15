@@ -27,4 +27,9 @@ add_library(${PROJECT_NAME} MODULE
 )
 target_link_libraries(${PROJECT_NAME} PRIVATE realsense2)
 
+# comment out if only building for intel, or change path to location of your arm64 libusb
+if(APPLE)
+  target_link_libraries(${PROJECT_NAME} PRIVATE "/opt/homebrew/lib/libusb-1.0.dylib")
+endif()
+
 include(${CMAKE_CURRENT_SOURCE_DIR}/max-sdk/script/max-posttarget.cmake)
